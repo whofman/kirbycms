@@ -1,5 +1,5 @@
 <div class="widget first-widget">
-	<p><img src="http://localhost/kirby/assets/images/hans.jpg" class="author-image" width="50px"  height="50px" alt="Author Image">
+	<p><img src="http://localhost/kirbycms/assets/images/hans.jpg" class="author-image" width="50px"  height="50px" alt="Author Image">
 
 	 <?= kirbytext($site->biography()) ?></p>
 	 <hr />
