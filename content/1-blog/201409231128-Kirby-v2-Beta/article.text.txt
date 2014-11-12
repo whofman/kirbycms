@@ -35,7 +35,7 @@ Tenslotte een voorbeeld van de **Kirby config** file
 
 		config/config.php
 
-		c::set('url', 'http://localhost/kirbydir');
+		c::set('url', 'http://localhost/kirbycms');
 		c::set('rewrite', true);
 
 		c::set('subfolder', false);

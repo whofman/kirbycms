@@ -1,0 +1,22 @@
+Title: KirbyCMS en Git
+----
+Date: 2014-11-12 13:13
+----
+Tags: git
+----
+Categories: software, kirby
+----
+Text:
+
+**Kirby** is uitstekend geschikt om beheerd te worden met **git**. Een eerste toepassing daarvan is te vinden in (link: http://getkirby.com/blog/working-with-git text: Working with Git) van de **Kirby** auteur **Bastian Allgeier**.
+
+Mijn huidige implementatie (met vele lokale wijzigingen) bevindt zich in de **master** branch van mijn **Github** repository **kirbycms**.
+
+Om experimenten met vooral **CSS** zo soepel mogelijk te laten verlopen, worden deze op de branch **test** uitgevoerd. Hiertoe zijn de volgende **git**opdrachten nodig:
+
+        git checkout -b test         # creatie van de branch
+        git checkout <branch>        # master of test
+
+        git push origin test         # om repository branch bij te werken
+
+Ik moet nog uitzoeken hoe beide branches op de juiste manier samen te voegen (merge). Ook wil ik wel versie nummers (tags) gaan gebruiken.

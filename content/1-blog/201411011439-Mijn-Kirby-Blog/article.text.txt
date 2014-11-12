@@ -35,7 +35,7 @@ Het posten van berichten gaat eenvoudig met de editor **Sublime Text 3** die opg
 		}
 
 		# Common data dir for all Kirby version
-		BLOGDIR=$HOME/Sites/kirby/content/1-blog
+		BLOGDIR=$HOME/Sites/kirbycms/content/1-blog
 
 		# Check Title
 		if [ $# -eq "0" ]
