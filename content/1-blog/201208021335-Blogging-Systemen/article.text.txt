@@ -1,0 +1,35 @@
+Title: Blogging Systemen
+----
+Date: 2012-08-02 13:35
+----
+Tags: octopress, jekyll, pritlog, scriptogram, skrivr, serendipity
+----
+Categories: blogsys
+----
+Text:
+
+Via een serie van korte posts ga ik op zoek naar een ideaal personal blog systeem. Tevens is het de bedoeling dit op een later tijdstip te migreren naar mijn NAS. De volgende systemen komen als eerste aan de beurt.
+
+* GoDrop.it
+* Scriptogr.am
+* Skrivr
+* Pritlog
+* Simple PHP Blog
+* PHPSqliteCms
+* Serendipity
+
+Mijn test setup is zodanig ik een copyright van alle Posts bewaar en een utility deze naar de juiste Dropbox locatie laat verplaatsen. Op zo'n manier kan ik meerdere systemen tegelijk testen.
+
+Een aantal andere systemen is misschien ook nog de moeite waard:
+
+* PivotX.net
+* Octopress.org
+* Jekyll
+* TextPattern.com
+
+Ik wil hier een plaatje laten zien. Het image dient zich te bevinden in de zelfde directory als de tekst.
+
+Mijn Werkkamer
+(image: werkkamer.jpg width:500 height:300 alt: "Mijn werkkamer")
+
+

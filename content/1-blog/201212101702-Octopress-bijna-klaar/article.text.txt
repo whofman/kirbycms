@@ -1,0 +1,15 @@
+Title: Octopress bijna klaar
+----
+Date: 2012-12-10 17:02
+----
+Tags: hazel, lingon, launchd
+----
+Categories: blogsys
+----
+Text:
+
+Na het toevoegen van **Tags** is mijn inplementatie van **Octopress** bijna klaar. Ik wil nog een _Lees meer_ optie hebben om te lange posts te vermijden op de _main_ pagina. Dan heb ik gemerkt dat de Tags **niet** getoond worden op de **Archief** pagina, dus dat wil ik ook nog aanpassen.
+
+Het splitsen van lange _posts_, het eerste gedeelte op de _main_ pagina, de rest als **volledig artikel** kan je bereiken met de **more tag**: \<!--more-->
+
+Het toevoegen van _posts_ gebeurt nu met de commandline utility **post**. Echter, daarna moet ik nog handmatig (in ~/octopress) de commando's **rake generate** en **rake deploy** uitvoeren. Dat wil ik ook nog automatiseren via **Hazel** en/of **Launchd/Lingon**.

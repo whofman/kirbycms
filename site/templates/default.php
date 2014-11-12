@@ -1,12 +1,14 @@
 <?php snippet('header') ?>
 
-  <main class="main" role="main">
+<div class="row" id="main-content">
+	<section class="eight columns" id="content-area">
+		<h2><?= $page->title() ?></h2>
+			<?= kirbytext($page->text()) ?>
+	</section>
 
-    <div class="text">
-      <h1><?php echo $page->title()->html() ?></h1>
-      <?php echo $page->text()->kirbytext() ?>
-    </div>
-
-  </main>
+	<aside class="four columns" id="sidebar">
+		<?= snippet('sidebar') ?>
+	</aside>
+</div>
 
 <?php snippet('footer') ?>

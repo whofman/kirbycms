@@ -1,0 +1,192 @@
+/*
+ :::  Tags
+-------------------------------------------------- */
+.tags {
+  display: inline-block;
+}
+
+.tags li {
+  display: inline-block;
+  margin-right: .25em;
+  text-transform: lowercase;
+}
+
+/*
+ :::  Pagination
+-------------------------------------------------- */
+.pagination {
+  margin: 3em 0 5em;
+}
+
+.pagination .prev {
+    float: left;
+}
+
+.pagination .next {
+    float: right;
+}
+
+/* Next/Prev nav
+-------------------------------------------------- */
+.nextprev {
+  padding: 1em 0;
+}
+.nextprev a {
+  border: 0;
+}
+.nextprev .prev {
+  float: left;
+}
+.nextprev .next {
+  float: right;
+}
+
+/*
+:::  Site footer
+-------------------------------------------------- */
+footer {
+  display:block;
+  
+/*
+
+/*
+ :::  Pagination
+-------------------------------------------------- */
+.pagination {
+  margin: 3em 0 5em;
+}
+
+.pagination .prev {
+    float: left;
+}
+
+.pagination .next {
+    float: right;
+}
+
+/* Next/Prev nav
+-------------------------------------------------- */
+.nextprev {
+  padding: 1em 0;
+}
+.nextprev a {
+  border: 0;
+}
+.nextprev .prev {
+  float: left;
+}
+.nextprev .next {
+  float: right;
+}
+
+/*
+:::  Site footer
+-------------------------------------------------- */
+footer {
+  display:block;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.site-footer {
+  padding: 1em 0;
+  font-size: 0.8em;
+  line-height: 1.5;
+  border-top: 1px solid #333;
+}
+
+/* Footer
+-------------------------------------------------- */
+.footer {
+  padding: 1em 0 6em;
+  padding-left: 4em;
+  padding-right: 4em;
+  font-size: .8em;
+}
+.copyright {
+  float: left;
+}
+.colophon {
+  float: right;
+}
+.colophon a b {
+  color: red;
+  padding-left: .25em;
+}
+
+
+/*
+:::  Clearfix [cf]
+-------------------------------------------------- */
+.cf:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+code { font-weight: bold; background: #919190; } 
+}
+
+ol, ul {
+  list-style: none;
+}
+
+.site-footer {
+  padding: 1em 0;
+  font-size: 0.8em;
+  line-height: 1.5;
+  border-top: 1px solid #333;
+}
+
+/* Footer
+-------------------------------------------------- */
+.footer {
+  padding: 1em 0 6em;
+  padding-left: 4em;
+  padding-right: 4em;
+  font-size: .8em;
+}
+.copyright {
+  float: left;
+}
+.colophon {
+  float: right;
+}
+.colophon a b {
+  color: red;
+  padding-left: .25em;
+}
+
+
+/*
+:::  Clearfix [cf]
+-------------------------------------------------- */
+.cf:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+/* copied from foundation.css*/
+
+code { font-weight: bold; background: #cfcccc; display:block ;} 
+pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+
+/* Lists ---------------------- */
+ul, ol, dl { font-size: 14px; line-height: 1.6; margin-bottom: 17px; list-style-position: outside; }
+
+ul li ul, ul li ol { margin-left: 20px; margin-bottom: 0; }
+ul.square, ul.circle, ul.disc { margin-left: 17px; }
+ul.square { list-style-type: square; }
+ul.square li ul { list-style: inherit; }
+ul.circle { list-style-type: circle; }
+ul.circle li ul { list-style: inherit; }
+ul.disc { list-style-type: disc; }
+ul.disc li ul { list-style: inherit; }
+ul.no-bullet { list-style: none; }
+ul.large li { line-height: 21px; }
+
+ol { margin-left: 20px; }
+ol li ul, ol li ol { margin-left: 20px; margin-bottom: 0; }

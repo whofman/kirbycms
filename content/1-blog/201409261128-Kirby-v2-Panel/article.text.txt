@@ -1,0 +1,30 @@
+Title: Kirby v2 Panel
+----
+Date: 2014-09-26 11:28
+----
+Categories: software, kirby
+----
+Related:
+- blog/KirbyCMS
+- blog/Kirby-v2-Beta
+----
+Text:
+
+Kirby v2 panel gaf *write access* fouten, in tegenstelling tot de v1 versie. De oplossing was het toewijzen van de *ownership* of een aantal directories aan **Apache**.
+
+ 
+		sudo chown -R _www:staff content
+		sudo chown -R _www:staff thumbs
+		sudo chown -R _www:staff site/accounts
+		sudo chown -R _www:staff site/cache
+		sudo chown -R _www:staff assets/avatars
+ 
+en deze **writable** te maken.
+ 
+		chmod -R 755 content
+		chmod -R 755 thumbs
+		chmod -R 755 site/accounts
+		chmod -R 755 site/cache
+		chmod -R 755 assets/avatars
+		
+Probleem opgelost. 

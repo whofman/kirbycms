@@ -1,0 +1,19 @@
+Title: Hazel en Octopress
+----
+Date: 2012-12-03 14:08
+----
+Tags: hazel
+----
+Categories: blogsys, software, octopress
+----
+Text:
+
+Om publiceren van posts in **Octopress** te vergemakkelijken, wordt het volgende **Hazel** script gebruikt:
+
+	cd $HOME/octopress
+	source $HOME/.rvm/scripts/rvm
+	mv $1 source/_posts
+	rake generate
+	cp -R public/* /Libray/WebServer/Documents/octopress
+
+Om de deployment naar de **Apache** server mogelijk te maken, is de _octpress_ directory _open_ gezet.

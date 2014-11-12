@@ -1,0 +1,34 @@
+Title: Hexo Test
+----
+Date: 2014-06-22 14:39
+----
+Tags: hexo
+----
+Categories: blogsys, software
+----
+Text:
+
+Hexo is een simpel CMS gebaseerd op Node.js en te vinden op http://hexo.io. Ik heb een test versie gemaakt op mijn iMac met input uit Octopress. Installatie gaat alsvolgt:
+
+		npm install -g hexo
+		cd ~/Projects
+		hexo init hexo
+		cd hexo
+		npm install
+		... modify config.yml
+			url: http://localhost/
+			root: /hexo
+		hexo new 'title' to generate a post
+			hexo n [post|draft] 'title'  new post in _posts [_drafts]
+			hexo p 'title'   publish post by moving from _drafts to _posts
+			hexo n page 'About
+		
+		hexo generate [--watch] [--deploy]
+		hexo server  -> localhost:4000/hexo/
+		
+		hexo deploy  -> on Github
+		github deploy repo: git@github.com:whofman/whofman.git.com/
+		
+Als thema gebruik ik metro-light (see github.com/shulhi)
+
+Tevens gwbruik ik de **admin-plug-in** via Http://localhost:4000/admin

@@ -1,0 +1,18 @@
+Title: "Day One"
+----
+Date: 2012-11-19 15:04
+----
+Tags: journal, day-one
+----
+Categories: general
+----
+Text:
+
+Ik heb vandaag de scripts van _Brett Terpstra_ betreffende **Day One** geïmplementeerd op de iMac. In _~/bin_  **logtodayone.rb** en in _~/Library/Applications Support/Launchbar/Actions/_ **Log to Day One.scpt**. Ook heb ik een alias **log** dat een entry aan de **Day One** dagbiek toevoegd.
+
+De syntax van een entry is alsvolgt: ”! [datum] tekst” met optioneel ! voor een **star** entry.  Het datum formaat kan zijn
+ 
+- y		gisteren (yesterday)
+- −3		3 dagen geleden
+- . 12:30	om half een.
+

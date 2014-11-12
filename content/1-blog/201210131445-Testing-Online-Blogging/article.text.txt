@@ -1,0 +1,20 @@
+Title: "Blogging Systemen"
+----
+Date: 2012-10-13 14:45
+----
+Tags: godropit, scriptogram
+----
+Text:
+
+De eerste file is aangemaakt in een verzamel directory _Posts_. Deze directory wordt op de Mac gemonitored door _Hazel_ op files met extensie .md. Wordt er een gevonden dan worden de volgende regels toegepast:
+
+* Copy to Dropbox/Apps/GoDrop.it/Posts
+* Copy to Dropbox.Apps/Scriptogram/Posts/
+* Rename to .txt extensie
+
+De file is goed aangekomen in GoDrop.it. Met het andere systeem heb ik nog problemen. De **sync** knop werkt bij mij niet en ik ga dus maar eens uitzoeken hoe dit komt.
+
+**Opmerking**
+
+**Let op**. De H1 titel  " Blogging system" wordt vervangen door de **Title:** van deze post.
+

@@ -1,0 +1,48 @@
+Title: Kirby v2 Beta
+----
+Date: 2014-09-23 16:08:18
+----
+Categories: kirby, software
+----
+Tags: apache
+----
+Related:
+- blog/Kirby-v2-Panel
+- blog/KirbyCMS
+----
+Text:
+
+Kirby v2 Beta is beschikbaar. Ik had dezelfde problemen met **Apache** mod_rewrite, dus heb ik er maar eens dieper ingedoken. Het probleem is kennelijk de instelling van de defaults van de server.
+
+/Library/Server/Web/Config/Apache2/Sites/
+
+		Add to 0000_any_80_kirby.hahomail.nl.conf
+			
+		Options Indexes Includes MultiViews FollowSymLinks
+		AllowOverride All
+		Order allow,deny
+		Allow from all
+		
+De standaard OSX Apache server dient alsvolgt gewijzigd te worden in /etc/apache2/httpd.conf
+
+		/Librar/Webserver/Documents
+		
+		AllowOveride All
+		
+Tevens moet de .htaccess in de Kirby directory het statement **Rewritebase /kirbydir** bevatten.
+
+Tenslotte een voorbeeld van de **Kirby config** file
+
+		config/config.php
+
+		c::set('url', 'http://localhost/kirbydir');
+		c::set('rewrite', true);
+
+		c::set('subfolder', false);
+
+		c::set('home', 'blog');
+
+	
+
+
+

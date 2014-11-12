@@ -1,0 +1,14 @@
+Title: Over Mijzelf
+----
+
+Text:
+
+## Hans Hofman
+
+(image: about.jpg width: 150 height: 150 alt: Hans Hofman" )
+
+Ik ben geboren in Enschede in 1943, opgegroeid in Den Haag, werkzaam geweest in Eindhoven (Philips) en nu gepensioneerd.
+
+Ik houd me bezig met het bekijken van allerlei software, waaronder _blogging systemen_. Op dit moment probeer ik de "intricacies" van **Octopress** te doorgronden. Hiervoor heb ik een bank transactie database systeem in **PHP** en **SQLite** gemaakt.
+
+Dit blog is mijn persoonlijke blog, waarop ik aantekeningen kan maken over mijn software activiteiten en andere _zaken des levens_ voorzover deze relevant zijn.

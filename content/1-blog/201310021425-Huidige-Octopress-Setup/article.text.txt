@@ -1,0 +1,16 @@
+Title: Huidige Octopress Setup
+----
+Date: 2013-10-02 14:25
+----
+Categories: octopress, software
+----
+Text:
+
+De vorige publicatie ging niet zoals ik dacht. Het bleek dat de huidige *Octopress setup* opgezet was om te publiceren op mijn *Github* blog. Derhalve moeten de volgende stappen gevolgd worden:
+
+	post "Huidige Octopress Setup" --dest octopress
+	cd ~/octopress
+	rake generate
+	rake deploy
+	
+De url **blog.hahoweb.nl** wijst naar mijn *Github* account *whofman.github.com* via een **CNAME** bij mijn domain provider. 

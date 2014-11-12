@@ -1,0 +1,32 @@
+Title: "Mijn Blog Keus"
+----
+Date: 2012-10-18 14:45
+----
+Tags: dropbox, hazel, mou, byword 
+----
+Categories: blogsys, software
+----
+Text:
+
+Na met diverse systemen geëxperimenteerd te hebben en rekening te houden met mijn post _Aandacht_, heb ik gekozen voor database overeenkomstig de **Pritlog** sqlite3 database. Deze zal gevoed worden door _Markdown_ editors via een **Hazel** script. De editors saven de file in _~/Dropbox/Notes_ met als filename **bp\__\<filename>_.md**. Een **Hazel ** regel verplaatst iedere file met voornoemde filename naar de _inbox_ van het database systeem. Deze wordt op zijn beurt gescanned door een _cronjob_ **post_it.php** die de tekst file converteerd en toevoegd aan de database.
+
+Een tekst file dient te worden voorzien van een _header_ met minimaal de **Titel:** optie:
+
++ Titel:\<post titel **VEREIST**>
++ Datum:**yyyy-mm-dd** [hh:mm:ss]
++ Type:**post**|page
++ Tag:\<keywords> gescheiden door een spatie
++ Publ:**1**|0 (ja/nee publiseren) 
+
+Via een [webpagina](http://hahoweb.nl:8000 "webpagina") kan de database bekeken worden. Te zijner tijd zal ook een _inline editor_ worden toegevoegd.
+
+De volgende _markdown_ editors zijn eenvoudig te configureren voor gebruik met dit _Blog_ systeem:
+
++ _Byword_, een Mac en iOS editor
++ _Mou_, een Mac editor
++ _Writing Kit_, een iOS editor
++ _Denote_, een Android editor
+
+In feite is elke editor geschikt als deze tenminste een bestand in de _~/Dropbox/Notes_ folder kan opslaan.
+
+Ik heb besloten het systeem **HahoBlog** te noemen

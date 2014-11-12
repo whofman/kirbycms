@@ -1,0 +1,23 @@
+Title: "Blog Server"
+----
+Date: 2012-11-29 14:44
+----
+Tags: apache 
+----
+Categories: software
+----
+Text:
+
+Alle blog systemen werden getest op mijn **NAS**, een **Qnap TS-219P+** systeem met 2 Tb drivers
+in _Raid-0_ configuratie. Web access was gemakkelijk via de link [sun](http://sun/blog) waarin sun de lokale naam van de server is. Om het definitieve systeem ook via mijn eigen domein op internet te kunnen benaderen, moest ik gebruik maken van een virtual host op een ander port dan de standaard 80. (dit door de eisen van een lokale mac computer) Dit zou de eerste keer worden dat ik gebruik moest maken van een virtuele host op de **Apache web server**. Dat heb ik alsvolgt geraliseerd: 
+
+	<VirtualHost *:8000>
+		ServerAdmain hans@hahoweb.nl 
+		DocumentRoot /share/Web/blog 
+		ServerName blog.hahoweb.nl 
+	<VirtualHost>
+
+Hiermee kan ik de blog via internet benaderen met de Url **(http://blog.hahoweb.nl:8000/)**.
+
+De domein naam **hahoweb.nl**
+ heb ik sinds lange tijd in gebruik.

@@ -1,0 +1,50 @@
+Title: "Blog Systeem Overzicht"
+----
+Date: 2012-10-16 14:45
+----
+Tags: godropit, scriptogram, skrivr, pritlog, serendipity, phpsqlitecms 
+----
+Categories: blogsys
+----
+Text:
+
+Het resultaat van het bekijken van een aantal blog systemen voor persoonlijk gebruik. Ik heb vooral gekeken naar de volgende criteria:
+
+* Koppeling aan (sub)domain
+* Implementeren op eigen server
+* Zoek faciliteiten op het blog systeem
+
+Kort overzicht
+
+* __GoDrop.it__
+
+	`Dit systeem werkt goed. De Sync frekwentie is laag als je aan het testen bent. Ik mis hier nog het gebruiken van een (sub)domein en en mogelijkheid om het Archief te doorzoeken`
+
+* __Scriptogr.am__
+
+	`Ook een prettig werkend systeem, vooral met de Mac editor Mou. Deze kan direct in de post directory van scriptogr.am schrijven. Helaas ontbeert scriptogr.am automatische synchronisatie. Het systeem ondersteunt wel het gebruik van een (sub)domein.`
+
+* __Skrivr__
+
+	`Nog niet voor iedereen te gebruiken. Ik wacht (al lang) op een uitnodiging.`
+
+* __Pritlog__
+
+	`Dit systeem ik heb draaien op mijn server. Het is niet alleen voor persoonlijk gebruik. Posting gebeurt via het web interface. Ik heb een driver gemaakt die .md files in het systeem zet. Triggering doet Hazel die een posting folder monitoort.`
+
+* __Simple PHP Blog__
+
+	`Ook dit systeem draait op mijn server. Ik vind de home pagina te "druk". Verder lijkt het moelijk om auto-insert te realiseren.`
+
+* __PHPSqliteCms__
+
+	`Zie Simple PHP Blog`
+
+* __Serendipity__
+
+	`Zie Simple PHP Blog`
+
+
+Het voorlopige resultaat van dit onderzoekje is dat ik verder aan de slag ga met zowel _godrop.it_ als _scriptogr.am_. Ondermeer zal ik **Search** bekijken en mogelijk **CSS** aanpassingen.
+
+

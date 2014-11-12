@@ -1,0 +1,17 @@
+Title: Mou en Godrop.it
+----
+Date: 2012-10-07 11:43
+----
+Tags: mou, dropbox, scriptogram, godropit
+----
+Text:
+
+Deze blogpost wordt gemaakt met Mou, een mac _markdown_ editor met buitengewone mogelijkheden. Default posting is naar __scriptogr.am__, maar ik onderzoek nu de mogelijkheden met _godrop.it_.
+
+Deze header is gemaakt met de _TextExpander_ snippet __;bph__. 
+
+Ik wil hier ook kijken wat er gebeurt als een bestaande post (post5.md) wordt gewijzigd.
+
+Tevens wil ik nagaan hoe **Mou** met _images_ in _godrop.it_ om kan gaan. Images moeten worden opgeslagen in _~Dropbox/Apps/godrop.it/images_ waarbij in de tekst de link alsvolgt wordt opgenomen: _\!\[alt text](/images/image.jpg "Image text")_.
+
+(image: werkkamer.jpg)

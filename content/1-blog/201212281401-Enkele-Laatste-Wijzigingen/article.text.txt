@@ -1,0 +1,23 @@
+Title: Enkele Laatste Wijzigingen
+----
+Date: 2012-12-28 14:01
+----
+Categories: octopress, software
+----
+Text:
+
+Ik heb nog enkele wijzigingen in Octopress aangebracht, voornamenlijk om de teksten te "vernederlandsen". Deze betreffen de modules:
+
+	_config.yml
+	source/_includes/navigation.html
+	source/_includes/custom/navigation.html
+	source/_includes/custom/asides/about.html
+	source/_includes/custom/asides/category_list.html
+	
+Ook heb ik een *bash* opdracht **deploy** (_~/bin/deploy_) aangemaakt om de gegenereerde files naar mijn lokale (Mac) server te synchroniseren. 
+
+Overigens, **rake** automatisch laten verlopen is moeilijker dan gedacht.
+
+Tenslotte, de **Octopress** manier om "posts" aante maken via _rake new\_post "Titel"_ vond ik zeer onhandig. Daarom heb ik een andere opdracht **post** (_~/bin/post_) gemaakt, die niet alleen de correcte header file creëert, maar dit tevens doet in de juist directory: 
+
+	post "titel" [--tag tags, …] [--cat cats, ...] 

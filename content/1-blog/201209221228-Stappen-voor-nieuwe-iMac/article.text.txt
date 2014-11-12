@@ -1,0 +1,16 @@
+﻿Title: Stappen voor nieuwe iMac
+----
+Date: 2012-09-22 12:28
+----
+Categories: octopress, software
+----
+Text:
+ 
+Ik heb een nieuwe iMac besteld met een *Fusion* drive. Ik wil eigenlijk hierop een **schone** installatie doen. Maar een aantal applicaties wil ik gewoon overzetten, zoals *Octopress* en mijn *pritlog/blog* systeem. Aangezien het een half jaar geleden was dat ik voor het laatst iets met beide systemen deed, ben ik het overzicht over de diverse folders enigszins kwijt geraakt. Dat moet ik nu oppoetsen. Hiertoe begin ik met het (proberen te) posten van dit bericht:
+
+	post "Stappen voor een nieuwe iMac" --dest octopress
+	cd ~/octopress
+	rake generate
+	cp -r public/* /Volumes/Web/octopress
+	
+Dit waren de handmatige stappen om tot publicatie te komen voor zover ik me herinner. Ben benieuwd!

@@ -1,4 +1,4 @@
-Title: Kirby Starterkit
+Title: Kirby v2.0.4
 
 ----
 
@@ -15,3 +15,7 @@ Keywords: Kirby, CMS, file-based
 ----
 
 Copyright: © 2009-(date: Year) (link: http://getkirby.com text: Kirby)
+
+----
+
+Biography: Hans Hofman modified Kirby v2 to accomodate  (link: http://antjan.us/post text: the Zurb Foundation Theme)

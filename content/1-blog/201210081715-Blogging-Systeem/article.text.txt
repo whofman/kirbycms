@@ -1,0 +1,23 @@
+Title: Blogging systeem
+----
+Date: 2012-10-08 17:15
+----
+Tags: godropit, scriptogram
+----
+Categories: blogsys
+----
+Text:
+
+De volgende punten verdienen aandacht:
+
+* Gebruik van Tags
+* Gebruiken van filenames met datum/tijd indicatie en hun archivering
+* Posten via de _Mac_ command line
+* Het gebruik van _Hazel_ op de _Mac_
+* _scriptogr.am_ heeft een **Archief** systeem, _godrip.it_ niet.
+
+Naast deze punten ga ik ook t.z.t. naar _Search_ en _CSS_ kijken.
+
+__Opmerking__
+
+De _dropgo.it_ sites van _now_, _michielroelfsema_ en _minddrop_ zij interessant om te bekijken.

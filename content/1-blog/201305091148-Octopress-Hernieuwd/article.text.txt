@@ -1,0 +1,13 @@
+Title: Octopress Hernieuwd
+----
+Date: 2013-05-09 11:48
+----
+Tags: hazel
+----
+Categories: octopress
+----
+Text:
+
+Na een lange onderbreking heb ik weer eens naar **Octopress** gekeken. Op de website was te zien dat de ontwikkelaars niets gedaan hadden. Dus, dacht ik, kon ik de installatie files gemakkelijk naar mijn **OS X** Webserver overzetten. Helaas was dat te gemakkelijk gedacht. De **Ruby** versie was van 1.8.7 naar 2.1.1 gewijzigd. Ook was **iconv** in deze versie *deprecated*. Na wat zoeken bleek dat er niet ee-twee-drie een oplossing voor was. Ik heb dus op goed geluk de aanroep van **iconv** uit **maraku/input/parse_doc.rb** gesloopt. Ik zal wel zien wanneer en hoe dit fout gaat.
+
+Mijn tests lieten zien, dat een en ander nog steeds werkte. Het staat me nu dus vrij om weer met **Octopress** aan de gang te gaan.

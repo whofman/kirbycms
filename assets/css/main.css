@@ -244,7 +244,9 @@ h1 a, h2 a, h3 a, h4 a {
   background: #ddd;
 }
 .main p,
-.main figure,
+.main figure {
+   margin-bottom: 1.5em;
+}
 .main ul,
 .main ol {
   margin-bottom: 1.5em;

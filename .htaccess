@@ -14,7 +14,8 @@ RewriteEngine on
 # If your homepage is http://yourdomain.com/mysite
 # Set the RewriteBase to:
 #
-# RewriteBase /mysite
+RewriteBase /kirby
+#
 
 # block text files in the content folder from being accessed directly
 RewriteRule ^content/(.*)\.(txt|md|mdown)$ error [R=301,L]
@@ -35,7 +36,10 @@ RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^(.*) index.php [L]
 
+RedirectMatch 301 ^/blog/(.*)$ /$1
+
 </IfModule>
+
 
 # Additional recommended values
 # Remove comments for those you want to use.

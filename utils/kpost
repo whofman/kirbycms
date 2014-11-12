@@ -1,0 +1,67 @@
+#!/bin/bash
+
+# Bash script to create Kirby type Post
+
+function usage {
+	echo "Usage kpost 'titel ...'"
+	exit 1
+}
+
+# Common data dir for all Kirby version
+BLOGDIR=$HOME/Sites/kirby/content/1-blog
+
+# Check Title
+if [ $# -eq "0" ]
+then
+	usage
+fi
+
+# cd to blog data folder 
+pushd $BLOGDIR &>/dev/null
+
+ # get the date
+DATE=`date "+%Y-%m-%d %H:%M"`
+DIRDATE=`date "+%Y%m%d%H%M"`
+
+# get title
+TITLE=$1 
+
+# replace blanks - hypen
+STITLE=${TITLE// /-}
+
+# read Tags
+echo -n Tags:
+read TAGS
+
+# read Categories
+echo -n Categorie:
+read CATS
+ 
+# make folder (e.g. 10-test)
+mkdir $DIRDATE-$STITLE
+ 
+# cd to folder created above
+cd $DIRDATE-$STITLE
+ 
+ 
+# create post.txt and fill it with blog post structure
+touch article.text.txt
+echo Title: $TITLE > article.text.txt
+echo ---- >> article.text.txt
+echo Date: $DATE >> article.text.txt
+
+if [ "$TAGS" != "" ]; then
+	echo ---- >> article.text.txt	
+	echo Tags: $TAGS >> article.text.txt
+fi
+if [ "$CATS" != "" ]; then
+	echo ---- >> article.text.txt	
+	echo Categories: $CATS >> article.text.txt
+fi
+echo ---- >> article.text.txt
+echo Text: >> article.text.txt
+echo >>article.text.txt
+
+`open -a "Sublime Text.app" article.text.txt`
+popd &>/dev/null
+

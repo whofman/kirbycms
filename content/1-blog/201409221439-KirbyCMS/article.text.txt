@@ -1,0 +1,32 @@
+Title: KirbyCMS
+----
+Date: 2014-09-22 14:39
+----
+Categories: kirby, software
+----
+Related:
+- blog/Kirby-v2-Panel
+- blog/Kirby-v2-Beta
+----
+Text:
+
+Kirby is een CMS gebaseerd op (markdown) bestanden, een zgn **NoDB** systeem. Dit betekent gemakkelijke beckup, idem aanmaken en wijzigen van postings via je standaard editor.
+
+Ik heb een implementatie gemaakt in ~/Sites/kirbycms en deze is oproepbaar via http://kirby.hahomail.nl. Slechts *één* wezenlijke modificatie was nodig om het systeem aan de praat te krijgen:
+
+	~/Sites/kirbycms/config/config.php
+		// disable mod_rewrite on iMac/OS X
+		c::set('rewrite', false);
+		c::set('url', 'http://kirby.hahomail.nl');
+
+	
+Dit was nodig omdat **Apache** (Mac OSX) problemen heeft met mod_rewrite. Boven staande fix repareert dit voldoende.
+
+Tevens heb ik de volgende opties geimplementeerd:
+
+		Tags
+		Draft status
+		Datum van posting
+		Zoeken in de posts
+		
+Het posten van berichten gaat eenvoudig met de markdown editor **Mou** die opgeroepen wordt met het commandline script **kirby-post**. 

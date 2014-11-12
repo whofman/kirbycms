@@ -1,0 +1,36 @@
+Title: Nieuwe ontwikkelingen
+----
+Date: 2012-12-04 15:59
+----
+Tags: github
+----
+Categories: blogsys, octopress, software
+----
+Text:
+
+Na diverse pogingen is het (mij althans) onmogelijk gebleken om **rake** commands via **Hazel** uit te voeren. Derhalve doe ik dat (voorlopig?) weer handmatig.
+
+Ik heb nu een poging gewaagd om dit blog op **GitHub** te vestigen. Via diverse publicaties op het internet gewijd aan dit onderwerp, is het tenslotte gelukt.
+
+<!--more-->
+
+De volgende stappen waren noodzakelijk:
+
+	Create a GitHub repository: whofman.github.com
+	
+	rake setup_github_pages
+	> git@github.com:whofman/whofman.github.com
+	cat 'blog.hahomail.nl' > source/CNAME
+
+	rake generate
+	rake deploy
+	
+De blog is nu beschikbaar op http://whofman.github.com. Hierna wil ik nog een aparte domein naam (_blog.hahomail.nl_) gebruiken. Dat dient te gebeuren via mijn domein leverancier **DomeinBalie*:
+
+	blog  CNAME whofman.github.com
+	
+Hiermee heb ik nu de mogelijkheid om dit blog op 3 manieren te publiceren:
+
+- lokale (_Apache_) webserver
+- webserver (_nginx_) op mijn **Qnap TS-219P+** NAS
+- **GitHub**
