@@ -110,10 +110,10 @@
     <?php if($articles->pagination()->hasPages()): // pagination ?>
 	    <nav class="pagination cf">
 	      <?php if($articles->pagination()->hasPrevPage()): ?>
-	      <a class="button prev" href="<?php echo $articles->pagination()->prevPageURL() ?>">&lsaquo;&lsaquo; later</a>
+	      <a class="button prev" href="<?php echo $articles->pagination()->prevPageURL() ?>">&lsaquo;&lsaquo; jonger</a>
 	      <?php endif ?>
 	      <?php if($articles->pagination()->hasNextPage()): ?>
-	      <a class="button next" href="<?php echo $articles->pagination()->nextPageURL() ?>">eerder &rsaquo;&rsaquo;</a>
+	      <a class="button next" href="<?php echo $articles->pagination()->nextPageURL() ?>">ouder &rsaquo;&rsaquo;</a>
 	      <?php endif ?>
         </nav>
     <?php endif ?>

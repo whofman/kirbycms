@@ -48,7 +48,7 @@ c::set('url', '/');
 // disable mod_rewrite on iMac/OS X
 
 //c::set('url', 'http://kirby.hahomail.nl');
-c::set('url', 'http://localhost/kirby');
+c::set('url', 'http://localhost/kirbycms');
 
 /* 
 
