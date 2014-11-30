@@ -126,7 +126,7 @@ ol, ul {
   clear: both;
 }
 
-code { font-weight: bold; background: #919190; } 
+code { font-weight: bold; background: #ECECE6; } 
 }
 
 ol, ul {
@@ -171,7 +171,7 @@ ol, ul {
 
 /* copied from foundation.css*/
 
-code { font-weight: bold; background: #cfcccc; display:block ;} 
+code { background: #ECECE6; display:block ;} 
 pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
 
 /* Lists ---------------------- */

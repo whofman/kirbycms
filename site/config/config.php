@@ -282,7 +282,7 @@ Please read more about it at: http://php.net/manual/en/function.date-default-tim
 
 */ 
 
-c::set('timezone', 'UTC');
+c::set('timezone', 'Europe/Amsterdam');
 
 
 /*
@@ -300,7 +300,7 @@ go to your homepage afterwards to display it on refresh.
 
 */ 
 
-c::set('troubleshoot', false);
+c::set('troubleshoot', true);
 
 
 /*

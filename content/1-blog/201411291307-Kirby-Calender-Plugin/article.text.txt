@@ -1,0 +1,21 @@
+Title: Kirby Calender Plugin
+----
+Date: 2014-11-29 12:50
+----
+Tags: calendar, plugin
+----
+Categories: kirby, software
+----
+Text:
+
+Een [*event calendar*](https://github.com/mzur/kirby-calendar-plugin/tree/v2.0.0) kan aaan **Kirby** worden toegevoegd. Ik heb de installatie instrukties één voor één gevolgd zonder resultaat echter. Om dit te onderzoeken heb ik in *site/config/config.php* de **troubleshooting** mode aangezet:
+
+        c::set('troubleshoot', true);
+
+Dit gaf als resultaat
+
+        Fatal error: Call to undefined function calendar() in 
+        /Users/hans/Projects/kirbycms/site/templates/calendar.php 
+        on line 3
+
+Voorlopig kan ik hier nog niets mee!

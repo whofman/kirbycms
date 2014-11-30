@@ -2,7 +2,7 @@
 
 <div class="row" id="main-content">
 	<section class="eight columns" id="content-area">
-		<h2><?= $page->title() ?></h2>
+		<h2><?= $page->title() ?></h2> test
 			<?= kirbytext($page->text()) ?>
 	</section>
 
