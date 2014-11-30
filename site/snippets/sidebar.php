@@ -1,7 +1,8 @@
+<p>
 <div class="widget first-widget">
-	<p><img src="http://localhost/kirbycms/assets/images/hans.jpg" class="author-image" width="50px"  height="50px" alt="Author Image">
+	<img src="http://localhost/kirbycms/assets/images/hans.jpg" class="author-image" width="90px"  height="90px" alt="Author Image">
 
-	 <?= kirbytext($site->biography()) ?></p>
+	 <?php echo kirbytext($site->biography()) ?>
 	 <hr />
 
 	 <div class="widget">

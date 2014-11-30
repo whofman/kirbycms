@@ -73,7 +73,7 @@
 		<h2><?= $page->description() ?></h2>
 		<?= kirbytext($page->text()) ?>
 		<?php
-			$articles = $page->children()->visible()->sortBy('date', 'desc')->paginate(3);
+			$articles = $page->children()->visible()->sortBy('date', 'desc')->paginate(4);
 			$pagination = $articles->pagination;
 			$range = 3;
 		?>
