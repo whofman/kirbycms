@@ -6,3 +6,4 @@ git submodule foreach --recursive git pull
 git add -A
 git commit -am "Kirby Update"
 git push
+
