@@ -10,9 +10,9 @@
 			<ul class="tags">
 			    <?php if($page->categories() != ''): ?>
 					Gepost in
-			            <?php foreach(str::split($page->categories()) as $cat): ?>
-			    	       <li><a href="<?php echo url('cat:' . urlencode($cat)) ?>"><?php echo $cat; ?></a></li>
-			            <?php endforeach ?>
+			        <?php foreach(str::split($page->categories()) as $cat): ?>
+			    	    <li><a href="<?php echo url('cat:' . urlencode($cat)) ?>"><?php echo $cat; ?></a></li>
+			        <?php endforeach ?>
 			    <?php endif?>
 			    <?php if($page->tags() != ''): ?> 
 				    <li>met tags</li> 
@@ -22,7 +22,6 @@
 				<?php endif?>
 			</ul>
 	    </article>
-
 		
 	     <nav class="nextprev cf" role="navigation">
 	            <?php if($next = $page->nextVisible()): ?> 

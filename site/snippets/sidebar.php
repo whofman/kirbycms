@@ -1,9 +1,9 @@
 <p>
 <div class="widget first-widget">
-	<img src="http://localhost/kirbycms/assets/images/hans.jpg" class="author-image" width="90px"  height="90px" alt="Author Image">
+	<img src="http://localhost/kirbycms/assets/images/hans.jpg" class="author-image" alt="Author Image">
 
 	 <?php echo kirbytext($site->biography()) ?>
-	 <hr />
+	<br>
 
 	 <div class="widget">
 		 <h3 class="subheader"><strong>Recente Artikelen</strong></h3>

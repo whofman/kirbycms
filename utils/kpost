@@ -8,7 +8,7 @@ function usage {
 }
 
 # Common data dir for all Kirby version
-BLOGDIR=$HOME/Sites/kirbycms/content/1-blog
+BLOGDIR=$HOME/Projects/kirbycms/content/1-blog
 
 # Check Title
 if [ $# -eq "0" ]
@@ -30,11 +30,11 @@ TITLE=$1
 STITLE=${TITLE// /-}
 
 # read Tags
-echo -n Tags:
+echo -n "Tags: "
 read TAGS
 
 # read Categories
-echo -n Categorie:
+echo -n "Categorie: "
 read CATS
  
 # make folder (e.g. 10-test)
@@ -62,6 +62,6 @@ echo ---- >> article.text.txt
 echo Text: >> article.text.txt
 echo >>article.text.txt
 
-`open -a "Sublime Text.app" article.text.txt`
+`open -a "/Applications/Sublime Text.app" article.text.txt`
 popd &>/dev/null
 

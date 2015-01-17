@@ -1,5 +1,13 @@
 <?php snippet('header') ?>
 
+<?php
+  function getFirstPara($string){
+     $string = substr($string,0, strpos($string, "</p>")+4);
+     //$string = str_replace("<p>", "", str_replace("<p/>", "", $string));
+     return $string;
+  }	
+?>
+
 <div class="row" id="main-content">
 	
     <?php if(param('tag')): 						// show tag results ?>
@@ -89,7 +97,7 @@
 			      </ul>
 			  <?php else: ?>
 			       <p>
-			  <?endif ?>
+			  <?php endif ?>
 		      <?php if ($article->tags() != ''): ?> <em>met tag</em>
 			      <ul class="tags">
 			        <?php foreach(str::split($article->tags()) as $tag): ?>
@@ -98,9 +106,10 @@
 			      </ul>
 			  <?php else: ?>
 			       <p>
-			  <?endif ?>
+			  <?php endif ?>
 
-    		  <p><?= excerpt($article->text(), 200) ?></p>
+ <!--   		  <p><?= excerpt($article->text(), 200) ?></p>  -->
+              <?php $text = getFirstPara(kirbytext($article->text())); echo $text; ?>
     		  <a href="<?= $article->url() ?>">Meer …</a>
 			 
   		  </article>

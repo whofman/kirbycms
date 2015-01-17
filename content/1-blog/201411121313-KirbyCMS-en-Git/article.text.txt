@@ -19,4 +19,5 @@ Om experimenten met vooral **CSS** zo soepel mogelijk te laten verlopen, worden 
 
         git push origin test         # om repository branch bij te werken
 
+
 Ik moet nog uitzoeken hoe beide branches op de juiste manier samen te voegen (merge). Ook wil ik wel versie nummers (tags) gaan gebruiken.

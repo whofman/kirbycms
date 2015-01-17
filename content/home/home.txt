@@ -5,20 +5,16 @@ Date: 2014-09-11
 Text:
 
 
-Bijgewerkt: 10 november 2014
+Bijgewerkt: 2 december 2014
 
 
-Dit moet mijn **Home** pagina worden. Op dit mement gebruik ik deze als **ToDO** lijst:
+Dit is mijn (tijdelijke) **Home** pagina.
 
-. het Next/Prev probleem oplossen  (**opgelost**)
-. Het **zoek** veld in de header fatsoeneren
-. de template/article.text.php verbeteren met **Octopress** layout (bottom)
-. datem formaat aanpassen
-. Categorieen/Tags ook op andere paginas zichtbaar maken. (home, search, enz.)
-. Gebruik **markdown** i.p.v. **kirbytext**?
-. wijzig *gele* kleur van **code** blocks en/of **pre**
-. line-up footer (links en rechts) 
-. **About** pagina bijwerken
-. add **marked** to **kpost** (**cmd-B**)
+- Het **zoek** veld in de header fatsoeneren
+- de template/article.text.php verbeteren met **Octopress** layout (bottom)
+- Gebruik **markdown** i.p.v. **kirbytext**?
+- **About** pagina bijwerken 
+- login page
+- panel
 
 Bekijk andere sites voor eventuele verbeteringen.

@@ -1,3 +1,4 @@
+
 /*
  :::  Tags
 -------------------------------------------------- */
@@ -11,20 +12,6 @@
   text-transform: lowercase;
 }
 
-/*
- :::  Pagination
--------------------------------------------------- */
-.pagination {
-  margin: 3em 0 5em;
-}
-
-.pagination .prev {
-    float: left;
-}
-
-.pagination .next {
-    float: right;
-}
 
 /* Next/Prev nav
 -------------------------------------------------- */
@@ -41,13 +28,6 @@
   float: right;
 }
 
-/*
-:::  Site footer
--------------------------------------------------- */
-footer {
-  display:block;
-  
-/*
 
 /*
  :::  Pagination
@@ -64,19 +44,18 @@ footer {
     float: right;
 }
 
-/* Next/Prev nav
+
+/*
+::: Site Header
 -------------------------------------------------- */
-.nextprev {
-  padding: 1em 0;
+.author-image {
+	float: left;
+	margin-right: 6px;
+	width: 120px;
 }
-.nextprev a {
-  border: 0;
-}
-.nextprev .prev {
-  float: left;
-}
-.nextprev .next {
-  float: right;
+
+.search {
+	margin-top:8px;
 }
 
 /*
@@ -86,9 +65,6 @@ footer {
   display:block;
 }
 
-ol, ul {
-  list-style: none;
-}
 
 .site-footer {
   padding: 1em 0;
@@ -97,36 +73,9 @@ ol, ul {
   border-top: 1px solid #333;
 }
 
-/* Footer
--------------------------------------------------- */
-.footer {
-  padding: 1em 0 6em;
-  padding-left: 4em;
-  padding-right: 4em;
-  font-size: .8em;
-}
-.copyright {
-  float: left;
-}
-.colophon {
-  float: right;
-}
-.colophon a b {
-  color: red;
-  padding-left: .25em;
-}
 
-
-/*
-:::  Clearfix [cf]
--------------------------------------------------- */
-.cf:after {
-  content: '';
-  display: table;
-  clear: both;
-}
-
-code { font-weight: bold; background: #ECECE6; } 
+code { 
+	font-weight: bold; background: #ECECE6; display: block;}
 }
 
 ol, ul {
@@ -171,8 +120,11 @@ ol, ul {
 
 /* copied from foundation.css*/
 
-code { background: #ECECE6; display:block ;} 
-pre, blockquote { border: 1px solid #999; page-break-inside: avoid; }
+pre, blockquote { 
+	border: 1px solid #999; 
+	page-break-inside: avoid;
+	background: #eee;
+}
 
 /* Lists ---------------------- */
 ul, ol, dl { font-size: 14px; line-height: 1.6; margin-bottom: 17px; list-style-position: outside; }
@@ -189,4 +141,20 @@ ul.no-bullet { list-style: none; }
 ul.large li { line-height: 21px; }
 
 ol { margin-left: 20px; }
-ol li ul, ol li ol { margin-left: 20px; margin-bottom: 0; }
+ul { margin-left: 20px; }      /* needed to correct position; don't know why!! */
+
+
+/* Login (see panel login)
+-------------------------------------------------- */
+.grey { background-color: #B2B2B2;}
+.modal-content .form {  padding: 1.5em; background-color: #FFFFFF;}  
+@media screen and (min-width: 50em) {  
+	.modal {   position: fixed;   top: 0;   left: 0;   right: 0;   bottom: 0;   height: 100%;   z-index: 1;   
+		       background: rgba(0,0,0, .2);  
+		   }  
+	.modal-content { position: absolute;   width: 22em;   top: 200px;   left: 50%;   border-radius: 3px;   
+		             box-shadow: rgba(0,0,0, .1) 0 2px 10px;   z-index: 2;   
+					 -webkit-transform: translate(-50%, -50%);   -moz-transform: translate(-50%, -50%);   
+					 -ms-transform: translate(-50%, -50%);   transform: translate(-50%, -50%);   margin: 0;  
+					} 
+} 

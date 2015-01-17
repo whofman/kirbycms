@@ -159,8 +159,8 @@ or markdown extra: http://michelf.com/projects/php-markdown/extra/
 */
 
 c::set('markdown', true);
-c::set('markdown.breaks', true);
-c::set('markdown.extra', true);
+c::set('markdown.breaks', false);
+c::set('markdown.extra', false);
 
 
 /* 
@@ -447,3 +447,43 @@ array('.', '..', '.DS_Store', '.svn', '.git', '.htaccess');
 
 */
 c::set('content.file.ignore', array());
+
+/*
+
+----------------------------------------
+Authentication
+----------------------------------------
+
+*/
+
+c::set('roles', array(
+  array(
+    'id'      => 'admin',
+    'name'    => 'Admin',
+    'default' => true,
+    'panel'   => true
+  ),
+  array(
+    'id'      => 'editor',
+    'name'    => 'Editor',
+    'panel'   => true
+  ),
+  array(
+    'id'      => 'client',
+    'name'    => 'Client',
+    'panel'   => false
+  )
+));
+
+c::set('routes', array(
+  array(
+    'pattern' => 'logout',
+    'action'  => function() {
+      if($user = site()->user()) $user->logout();
+      go('login');
+    }
+  )
+));
+
+
+

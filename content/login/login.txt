@@ -1,0 +1,9 @@
+title: Login
+----
+alert: Foutief username of password
+----
+username: Username
+----
+password: Password
+----
+button: Login

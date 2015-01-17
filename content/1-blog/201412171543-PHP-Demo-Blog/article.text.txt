@@ -1,0 +1,23 @@
+Title: PHP Demo Blog
+----
+Date: 2014-12-17 15:43
+----
+Categories: blogsys
+----
+Text:
+**PHP Demo Blog** is een lichtgewicht en responsief blogging systeem "powered by" **Markdown**. Voor mij zijn de belangrijkste kenmerken 
+
+* sidebar
+* paginering
+* aantrekkelijke layout
+
+Op de site [http://tutorialzine.com/2013/03/simple-php-blogging-system](Tutorialzine) is een complete tutorial te vinden hoe een dergelijk systeem te bouwen.
+
+<p> Blockquote Test:</p>
+> this is a blockquote
+  second line in block
+> second paragraph
+>
+reguliere text
+
+

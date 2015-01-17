@@ -5,12 +5,10 @@
     <title><?= html($page->title()) ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     
-    <?= css('/assets/stylesheets/foundation.css') ?> 
-	<?= css('/assets/stylesheets/site.css') ?>
+    <?= css('/assets/stylesheets/foundation.css') ?>  
+    <?= css('/assets/stylesheets/site.css') ?>
  	
 <!---    <link rel="alternate" type="application/rss+xml" href="<?php echo url('rss') ?>" title="Blog Feed" />  -->
-	
-	<?php date_default_timezone_set('Europe/Amsterdam'); ?>
 	
 </head>
 
@@ -20,7 +18,7 @@
     <nav class="top-bar">
         <ul>
             <li class="name"><h1><a href="<?= url() ?>"><?= html($site->title()) ?></a></h1></li>
-            <li class="toggle-topbar"><a href="#"></a></li>
+            <li class="toggle-topbar"><a href="#"></a> </li>
         </ul>
         <section>
             <ul class="left">
@@ -28,6 +26,12 @@
                 <?php foreach($pages->visible() AS $p): ?> 
                     <li><a href="<?php echo $p->url() ?>"><?php echo html($p->title()); ?></a></li>
                 <?php endforeach; ?>
+				
+			    <?php if($user = $site->user()): ?>
+			    <li>
+			      <a href="<?php echo url('logout') ?>">Logout</a>
+			    </li>
+			    <?php endif ?>
 			
 			  <li><form class="search" role="search" action="<?php echo url('search') ?>">
 	<!--		    <label for="search">Zoek</label>  -->
