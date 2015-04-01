@@ -1,7 +1,7 @@
 <nav class="menu cf" role="navigation">
   <ul class="cf">
     <?php foreach($pages->visible() as $item): ?>
-       <li><a<?php echo($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>">
+       <li><a<?php ecco($item->isOpen(), ' class="active"') ?> href="<?php echo $item->url() ?>">
 		     <?php echo $item->title() ?></a></li>
     <?php endforeach ?>
 	
